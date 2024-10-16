@@ -1,10 +1,10 @@
-body {
+/*body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("backgroound.jpg");
-}
+        background-image: url("/Users/hishamabass/Downloads/website/media/background.jpg");
+}*/
     
     
 .bar {               
@@ -82,7 +82,7 @@ body {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        background-image: url("backgroound.jpg");
+        background-image: url("/Users/hishamabass/Downloads/website/media/background.jpg");
         
     
 }
