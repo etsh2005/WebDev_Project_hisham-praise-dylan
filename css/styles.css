@@ -5,75 +5,158 @@
     background-size: cover;
         background-image: url("/Users/hishamabass/Downloads/website/media/background.jpg");
 }*/
-    
-    
-.bar {               
+
+
+.bar {
         display: block;
         margin-right: 0%;
         margin-left: 1;
-        background-color:#B5B5B5;
-        border-radius:200px;
+        background-color: #B5B5B5;
+        border-radius: 200px;
         width: 100px;
         display: inline;
         position: sticky;
+        margin: 1%;
+}
+
+.bar:hover {
+        background-color: whitesmoke;
+        transition: 1s;
+}
+nav {
+        background-color: #444;
+        padding: 0.5rem 0;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 0 1rem;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+#about {
+
+        display: block;
+        margin-right: 47%;
+        margin-left: auto;
+        background-color: #B5B5B5;
+        border-radius: 100px;
+        width: 100px;
+        margin-bottom: 25px;
+}
+
+#about:hover {
+        background-color: antiquewhite;
+        transition: 1s;
+}
+
+#contact {
+        display: block;
+        margin-right: 47%;
+        margin-left: auto;
+        background-color: #B5B5B5;
+        border-radius: 100px;
+        width: 100px;
+        margin-bottom: 20px;
+}
+
+#contact:hover {
+        background-color: antiquewhite;
+        transition: 1s;
+}
+
+#div {
+        background-color: rgba(36, 2, 56, 0.4);
+        width: auto;
+        height: auto;
+        margin: 0%;
 }
 
 #anime {
-    
-        text-align: center;
-        
-        font-size: 50px;
-        color: rgb(245, 203, 245);
-        line-height: 0%;
+
+        background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
 }
-    
+
 #bar2 {
         display: block;
         margin-right: 50%;
         margin-left: auto;
-        
-        background-color:#B5B5B5;
-        border-radius:200px;
+
+        background-color: #B5B5B5;
+        border-radius: 200px;
         width: 150px;
 }
-    
-    
+
+
 #headmain {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
         text-align: center;
-        font-size: 125px;
-        color : purple;
-    }
-   
-    
-#products{
+        margin: 0;
+        font-size: 2.5rem;
+}
+
+
+#products {
         display: block;
         margin-right: 50%;
         margin-left: auto;
-        background-color:#B5B5B5;
-        border-radius:200px;
+        background-color: #B5B5B5;
+        border-radius: 200px;
         width: 150px;
         display: inline;
 }
-    
-#Naruto { 
+
+#Naruto {
         display: block;
         margin-right: auto;
         margin-left: auto;
         width: 1000;
         height: 1000;
 }
-    
+
 #footer {
-        text-align:center;
+        text-align: center;
         color: antiquewhite;
-    }
+}
 
 #contactmain {
-    text-align: center;
-    font-size: 50px;
-    color: rgb(245, 203, 245);
-    line-height: 0%;
+        text-align: center;
+        font-size: 50px;
+        color: #444;
+        line-height: 0%;
+        font-size: 36px;
+  
+  animation: textAnimation 3s ease infinite;
 }
+.contactmain:hover{
+        animation-play-state: paused;
+      }
+      
+@keyframes contactmain {
+        0%, 100% {
+          color: #3498db;
+          transform: scale(1);
+        }
+        50% {
+          color: #e74c3c;
+          transform: scale(1.1);
+        }
+      }
 
 body {
         text-align: center;
@@ -83,34 +166,40 @@ body {
         background-size: cover;
         background-attachment: fixed;
         background-image: url("../media/background.jpg");
-        
-    
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+
+
 }
-    
-.heading{
+
+
+
+.heading {
         font-size: 50px;
-      }
-      
-.button{
-        
+}
+
+.button {
+
         color: antiquewhite;
-      }
-      
+}
+
 head {
         font-family: serif;
-        font-size: 25px; /* sets font size to 18 pixels */
+        font-size: 25px;
+        /* sets font size to 18 pixels */
 }
-    
+
 header {
         font-family: serif;
         color: aliceblue;
 }
-    
+
 p {
         font-size: 15px;
 }
-    
-    body {
+
+body {
         color: whitesmoke;
-      }
-    
+}
