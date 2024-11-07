@@ -23,6 +23,7 @@
         background-color: whitesmoke;
         transition: 1s;
 }
+
 nav {
         background-color: #444;
         padding: 0.5rem 0;
@@ -42,37 +43,27 @@ nav {
         text-decoration: none;
         font-size: 1.2rem;
     }
-#about {
 
-        display: block;
-        margin-right: 47%;
-        margin-left: auto;
-        background-color: #B5B5B5;
-        border-radius: 100px;
-        width: 100px;
-        margin-bottom: 25px;
-}
 
 #about:hover {
-        background-color: antiquewhite;
+        font-size: 35px;
         transition: 1s;
 }
 
-#contact {
-        display: block;
-        margin-right: 47%;
-        margin-left: auto;
-        background-color: #B5B5B5;
-        border-radius: 100px;
-        width: 100px;
-        margin-bottom: 20px;
-}
+
 
 #contact:hover {
-        background-color: antiquewhite;
+        font-size: 35px;
         transition: 1s;
 }
-
+#blog:hover{
+        font-size: 35px;
+        transition: 1s;
+}
+#home:hover{
+        font-size: 35px;
+        transition: 1s;
+}
 #div {
         background-color: rgba(36, 2, 56, 0.4);
         width: auto;
@@ -88,6 +79,10 @@ nav {
     text-align: center;
     margin: 0;
     font-size: 2.5rem;
+}
+#anime:hover{
+        color: yellow;
+        transition: 1s;
 }
 
 #bar2 {
@@ -109,8 +104,15 @@ nav {
         margin: 0;
         font-size: 2.5rem;
 }
+#headmain:hover{
+        color: yellow;
+        transition: 1s;
+}
 
-
+.head:hover{
+        color: yellow;
+        transition: 1s;
+}
 #products {
         display: block;
         margin-right: 50%;
@@ -121,6 +123,13 @@ nav {
         display: inline;
 }
 
+.images {
+        display: inline;
+        
+        width: 10%;
+        height: 50%;
+
+}
 #Naruto {
         display: block;
         margin-right: auto;
@@ -191,7 +200,7 @@ head {
         /* sets font size to 18 pixels */
 }
 
-header {
+.head {
         font-family: serif;
         color: aliceblue;
 }
@@ -203,3 +212,83 @@ p {
 body {
         color: whitesmoke;
 }
+
+body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        background-image: url(../media/background.jpg);
+        background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+    }
+    .head {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    nav {
+        background-color: #444;
+        padding: 0.5rem 0;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 0 1rem;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+    .blog-post {
+        background-color: #fff;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .blog-post img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+    .blog-post h2 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .blog-post p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    .blog-post .read-more {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    #footerblog {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
