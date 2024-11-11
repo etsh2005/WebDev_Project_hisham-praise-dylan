@@ -111,6 +111,7 @@ nav ul li a {
         width: 150px;
 }
 
+
 .headmain {
         background-color: #333;
         color: #fff;
@@ -120,7 +121,7 @@ nav ul li a {
         font-size: 2.5rem;
 }
 
-#headmain:hover {
+.headmain:hover {
         color: yellow;
         transition: 1s;
 }
