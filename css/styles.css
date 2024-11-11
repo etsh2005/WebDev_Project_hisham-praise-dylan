@@ -163,13 +163,12 @@ nav ul li a {
 }
 
 #contactmain {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 0;
         text-align: center;
-        font-size: 50px;
-        color: #444;
-        line-height: 0%;
-        font-size: 36px;
-
-        animation: textAnimation 3s ease infinite;
+        margin: 0;
+        font-size: 2.5rem;
 }
 
 .contactmain:hover {
@@ -369,4 +368,18 @@ nav ul li a {
         background-color: #333;
         color: #fff;
         border-radius: 4px;
+}
+
+#conactdiv{
+        padding: 20px;
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        color: #fff;
+        border-radius: 4px;
+}
+
+#footerabout{
+        color: #f4f4f4;
 }
