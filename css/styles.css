@@ -301,3 +301,8 @@ form {
     flex-direction: column;
     gap: 15px; /* Adds consistent spacing between form fields */
 }
+
+
+#responseMessage {
+        font-size: 50px;
+}
