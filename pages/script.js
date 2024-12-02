@@ -1,10 +1,11 @@
 function submitForm() {
     console.log("Submit button clicked!");
-    let name = document.getElementById('name').value
-    let email = document.getElementById('email').value;
+    let fname = document.getElementById('fname').value
+     let lname = document.getElementById('lname').value
+    let email = document.getElementById('e.mail').value;
     
     // avoiding blank input
-    if (name === '' || email === '') {
+    if (fname === '' || lname === '' || email === '') {
     alert('Name and email are required’);
     return false;
     }
