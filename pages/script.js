@@ -20,3 +20,5 @@ function submitForm() {
     } else {
         console.error("Response message container not found.");
     }
+console.log(form); // Check if form is correctly selected
+console.log(responseMessage); // Check if responseMessage exists
