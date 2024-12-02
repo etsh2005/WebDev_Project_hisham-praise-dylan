@@ -295,3 +295,9 @@ nav ul li a {
   width: 75%;
   margin-top: 6px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds consistent spacing between form fields */
+}
