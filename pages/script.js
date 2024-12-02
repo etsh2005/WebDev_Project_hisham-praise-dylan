@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    alert("Welcome to my website!");
-    console.log("JavaScript is successfully linked!")
+    console.log("JavaScript file is linked successfully!");
+    alert("Welcome to this awesome website!");
+});
