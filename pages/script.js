@@ -1,18 +1,14 @@
-console.log("JavaScript file is linked successfully!");
-
-
 function submitForm() {
-    // Access the form element safely
+    console.log("Submit button clicked!"); // Debugging line
+
     const form = document.getElementById("contactForm");
-    
     if (form) {
         form.reset(); // Reset the form fields
     } else {
         console.error("Form with id 'contactForm' not found.");
-        return; // Exit the function if form is null
+        return;
     }
 
-    // Display the thank-you message
     const responseMessage = document.getElementById("responseMessage");
     if (responseMessage) {
         responseMessage.textContent = "Thank you for responding!";
@@ -20,5 +16,4 @@ function submitForm() {
     } else {
         console.error("Response message container not found.");
     }
-console.log(form); // Check if form is correctly selected
-console.log(responseMessage); // Check if responseMessage exists
+}
