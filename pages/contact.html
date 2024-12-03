@@ -35,46 +35,36 @@
     </nav>
    
     <main>
-    <div id="conactdiv">
-
-        
-        
+     <div id="contactdiv">
             <form id="contactForm" action="javascript:void(0);" method="get">
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Your name.." required><br><br>
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Your last name.." required><br><br>
-            <label for="fname">Email Address:</label>
-            <input type="email" id="e.mail" name="e.mail" placeholder="john@example.com" required><br><br>
-            <label for="contact-method">Preferred Contact Method</label>
-            <select id="contact-method" name="contact-method">
-            <option value="email">Email</option>
-            <option value="phone">Phone</option>
-            <option value="none">None</option>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Your name.." required><br><br>
+                
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Your last name.." required><br><br>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required><br><br>
+                
+                <label for="contact-method">Preferred Contact Method:</label>
+                <select id="contact-method" name="contact-method">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="none">None</option>
+                </select><br><br>
 
-<!--             <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Write something.." rows="4" cols="50"></textarea><br><br> -->
-            <label for="fname">Message:</label>
-            <div class="col-75"><textarea id="subject" name="subject"  style="height:200px"></textarea></div>
-            </select>
-            
-            <br><button id="submitButton" type="submit" onClick="submitForm()">Submit</button>
+                <label for="subject">Message:</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." rows="4" cols="50" style="height:200px;"></textarea><br><br>
+                
+                <button id="submitButton" type="submit" onclick="submitForm()">Submit</button>
+            </form>
 
             <div id="responseMessage" style="display: none; color: white; margin-top: 20px;"></div>
-
-
-          </form>
-    </select>
-    </div>
-
-
+        </div>
     </main>
 
+    <footer id="footer">Developed by : Hisham Abass, Praise Ameke and Dylan Ryder</footer>
 
-      
-<!------>
     <script src="script.js"></script>
-    
 </body>
-<footer id="footer">Developed by : Hisham Abass, Praise Ameke and Dylan Ryder</footer>
 </html>
