@@ -22,14 +22,12 @@ function submitForm() {
         alert('Please enter a valid email address');
          return false;
     }
-    //if all validations pass
-    //return true;
-    } // Debugging line
- 
+
     const form = document.getElementById("contactForm");
     if (form) {
         form.reset(); // Reset the form fields
-    } else {
+    } 
+    else {
         console.error("Form with id 'contactForm' not found.");
         return;
     }
