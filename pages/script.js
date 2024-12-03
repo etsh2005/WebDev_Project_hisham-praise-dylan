@@ -1,3 +1,8 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Try programiz.pro");
+
 function submitForm() {
     console.log("Submit button clicked!");
     let fname = document.getElementById('fname').value;
@@ -12,9 +17,10 @@ function submitForm() {
     }
     // validating email format using a simple regular expression
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        alert('Please enter a valid email address’);
-                return false;
+    if (!emailRegex.test(email)) 
+    {
+        //alert('Please enter a valid email address’);
+         //return false;
     }
     // if all validations pass
     //return true;
