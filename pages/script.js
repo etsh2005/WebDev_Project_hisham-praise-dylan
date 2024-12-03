@@ -22,8 +22,8 @@ function submitForm() {
         alert('Please enter a valid email address');
          return false;
     }
-    if all validations pass
-    return true;
+    //if all validations pass
+    //return true;
     } // Debugging line
  
     const form = document.getElementById("contactForm");
