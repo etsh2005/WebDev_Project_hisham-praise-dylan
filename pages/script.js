@@ -1,13 +1,14 @@
 function submitForm() {
     console.log("Submit button clicked!");
-    let fname = document.getElementById('fname').value
-    let lname = document.getElementById('lname').value
+    let fname = document.getElementById('fname').value;
+    let lname = document.getElementById('lname').value;
     let email = document.getElementById('e.mail').value;
  
     // avoiding blank input
-    if (fname === '' || lname === '' || email === '') {
-        alert('Name and email are required’);
-            return false;
+    if (fname === '' || lname === '' || email === '') 
+    {
+        alert('Name and email are required');
+              return false;
     }
     // validating email format using a simple regular expression
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
