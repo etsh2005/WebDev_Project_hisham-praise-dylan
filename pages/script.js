@@ -16,7 +16,7 @@ function submitForm() {
     return false;
     }
     // if all validations pass
-    return true;
+    //return true;
     }// Debugging line
 
     const form = document.getElementById("contactForm");
