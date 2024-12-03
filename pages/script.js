@@ -19,8 +19,8 @@ function submitForm() {
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) 
     {
-        //alert('Please enter a valid email address’);
-         //return false;
+        alert('Please enter a valid email address');
+         return false;
     }
     // if all validations pass
     //return true;
