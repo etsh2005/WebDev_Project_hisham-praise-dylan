@@ -19,13 +19,13 @@ function submitForm() {
     //return true;
     }// Debugging line
 
-    const form = document.getElementById("contactForm");
-    if (form) {
-        form.reset(); // Reset the form fields
-    } else {
-        console.error("Form with id 'contactForm' not found.");
-        return;
-    }
+    // const form = document.getElementById("contactForm");
+    // if (form) {
+    //     form.reset(); // Reset the form fields
+    // } else {
+    //     console.error("Form with id 'contactForm' not found.");
+    //     return;
+    // }
 
     const responseMessage = document.getElementById("responseMessage");
     if (responseMessage) {
